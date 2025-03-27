@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Marina Dadalto</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--Links para fontes externas disponibilizadas pelo Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Marina Dadalto - Analista de Dados</h1>
+        <nav id="nav">
+            <!-- Menu responsivo para telas menores -->
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio-excel">Portfólio Excel</a></li>
+                <li><a href="#portfolio-powerbi">Portfólio Power BI</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Conteúdo da página - SOBRE | FORMACAO | PORTFOLIO -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Atuo como professora em cursos profissionalizantes de Excel e Power BI, 
+            além de ser professora de lógica e linguagem de programação no Ensino Médio Técnico. 
+            Tenho ampla exeriência em ensino de Dashboards usando o Excel e Power BI, além do ensino de Excel Avançado para demais usos.
+            Atuo como professora profissionalizante desde 2013, e durante 5 anos (2019 a 2024), atuei também como propfessora de Pensamento
+            Computacional para crianças de 4 a 11 anos.
+            Antes, atuei na área administrativa em diversos segmentos (metalúrgico, médico, imobiliário e setor público), onde aprendi e desenvolvi
+            minhas habilidades em Excel, me aprofundando no uso da ferramenta, além de faturamento, escrituração fiscal, gestão financeira e departamento pessoal.
+            Busco constantemente aprimorar minhas habilidades e aplicar meu conhecimento em projetos desafiadores, com o objetivo de gerar insights valiosos e auxiliar na tomada de decisões estratégicas.</p>
+    </section>
+    
+    <section id="formacao">
+        <h2>Formação</h2>
+        <p>Estou cursando Tecnologia em Ciência de Dados para aprimorar meus conhecimentos na área de criação de relatórios para análise de dados. Minha formação inclui habilidades em SQL, Power BI e Excel Avançado, que me permitem desde a extração e manipulação de dados até a criação de dashboards interativos e informativos.</p>
+    </section>
+    
+    <section id="portfolio-excel">
+        <h2>Portfólio Excel</h2>
+        <div class="portfolio">
+            <div class="portfolio-card">
+                    <img src="images/excel1.jpg" alt="Dashboard elaborado em aula">
+                <h3>Dashboard elaborado em aula</h3>
+                <p>Dashboard que desenvolvi enquanto ministrava aula de Excel, como explicação para os alunos, usando tabela dinâmica para resumos, gráficos e segmentação de dados para realizar filtros.</p>
+            </div>
+             <div class="portfolio-card">
+                    <img src="images/excel2.jpg" alt="Gráfico com barra de rolagem em Excel">
+                <h3>Gráfico com barra de rolagem elaborado em aula</h3>
+                <p>Gráfico que ensino aos alunos usando funções como Índice e Corresp, além da barra de rolagem para otimização do gráfico, permitindo que o gráfico "mude" conforme usa a barra de rolagem.</p>
+            </div>
+             <div class="portfolio-card">
+                    <img src="images/excel3.jpg" alt="Gráfico de Ponteiro">
+                <h3>Gráfico de Ponteiro</h3>
+                <p>Gráfico que criei em aula durante explicação para os alunos, usando funções como PROCV, validação de dados, e gráfico de rosca e pizza para criar o exemplo de ponteiro.</p>
+            </div>
+             <div class="portfolio-card">
+                    <img src="images/excel4.jpg" alt="Dashboard Finanças Pessoais">
+                <h3>Dashboard de Finanças Pessoais</h3>
+                <p>Dashboard criado durante aula de Dashboards em Excel, de Finanças Pessoais, onde usamos tabela dinâmica, segmentação de dados, Gráfico de Ponteiro e até ajustes em gráficos do Excel para melhor visualização</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio-powerbi">
+        <h2>Portfólio Power BI</h2>
+        <div class="portfolio">
+            <div class="portfolio-card">
+                    <img src="images/powerbi1.jpg" alt="Power BI Dashboard Olist">
+                <h3>Relatório de Vendas OLIST no Brasil</h3>
+                <p>Dashboard com análise das vendas do OLIST, dataset que baixei do Kaggle para estudos usando a ferramenta Power BI, nele realizei ETL nos dados e modelagens antes de elaborar o relaório e gráficos.</p>
+            </div>
+             <div class="portfolio-card">
+                    <img src="images/powerbi2.jpg" alt="Power BI Dashboard Projeto">
+                  <h3>Projeto Desenvolvido em um curso de Power BI</h3>
+                <p>Dashboard desenvolvido durante um curso...</p>
+            </div>
+             <div class="portfolio-card">
+                    <img src="images/powerbi3.jpg" alt="Power BI Dashboard Projeto">
+                <h3>Projeto Desenvolvido em um curso de Power BI</h3>
+                <p>Dashboard desenvolvido durante um curso...</p>
+            </div>
+             <div class="portfolio-card">
+                    <img src="images/powerbi4.jpg" alt="Power BI Dashboard Flor de Lis">
+                <h3>Projeto desenvolvido em participação em processo seletivo</h3>
+                <p>Dashboard desenvolvido em participação em processo seletivo, foi elaborado uma base de dados usando o Dataverse na sequência esse Dataverse alimenta o projeto no Power BI.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <form action="#" method="POST">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Marina Dadalto Candido</p>
+        <div class="footer-links">
+            <a href="mailto:maridadalto@live.com">E-mail</a>
+            <a href="https://www.linkedin.com/in/marinadadalto/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/maridadalto/" target="_blank">GitHub</a>
+        </div>
+    </footer>
+        <!--Script para menu responsivo -->
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const nav = document.getElementById("nav");
+
+        menuToggle.addEventListener("click", function() {
+            nav.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
